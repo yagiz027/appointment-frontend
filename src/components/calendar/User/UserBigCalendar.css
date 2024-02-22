@@ -1,0 +1,7 @@
+.customBigCalendar{
+    height: 80vh;
+}
+.customCell:hover{
+    background-color: darkcyan;
+    cursor: pointer;
+}

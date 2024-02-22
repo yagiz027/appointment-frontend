@@ -1,0 +1,69 @@
+.time-picker-container {
+    height: 300px;
+    width: 500px;
+    overflow-y: scroll;
+}
+
+.time-slots-container {
+display: flex;
+flex-direction: column;
+}
+
+.selected-time-footer{
+    height: 30px;
+}
+
+.timeSlots {
+padding: 10px;
+border: 1px solid #ccc;
+box-shadow: 0 0.250rem 0.25rem rgba(0, 0, 0, 0.075);
+margin: 5px;
+border-radius: 10px;
+cursor: pointer;
+}
+  
+.timeSlots.selected {
+background-color: #007bff;
+color: #fff;
+}
+
+.timeSlots:hover {
+    background-color: rgb(6, 191, 204);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transform: scale(1.00); 
+    transition: all 0.3s ease; 
+    border-radius: 10px;
+    overflow: hidden;
+}
+.time-laps-select{
+    width: fit-content;
+}
+
+.selected {
+background-color: #007bff;
+color: #fff;
+}
+
+.main-container{
+    margin: 0%;
+    align-items: flex-start;
+    border-spacing: 0cap;
+    letter-spacing: 0cap;
+}
+
+.dialog-footer{
+    height: 50px;
+    text-align: center;
+}
+.time-picker-footer{
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.time-list-container{
+    padding-left: 10px;
+}
